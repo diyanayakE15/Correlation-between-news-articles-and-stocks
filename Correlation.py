@@ -50,9 +50,6 @@ data = load_labeled_data('labeled_data.csv')
 
 # Extract the features from the text data using a TF-IDF vectorizer
 vectorizer = TfidfVectorizer()
-features = vectorizer.fit_transform(data['text'])
-print(f"features{features}")
-print("\n")
 
 # Train an SVM model on the labeled data
 svm_model = svm.SVC(kernel='linear', probability=True)
@@ -61,12 +58,9 @@ svm_model.fit(vectorizer.fit_transform(data['text']), data['label'])
 # Use the trained SVM model to classify new, unlabeled news articles
 
 new_articles = load_unlabeled_data('unlabeled_data.csv')
-new_features = vectorizer.transform(load_unlabeled_data('unlabeled_data.csv')['text'])
-print(f"features{new_features}")
 
 predictions = svm_model.predict_proba(vectorizer.transform(load_unlabeled_data('unlabeled_data.csv')['text']))
 print(predictions)
-
 sentiment_scores = predictions[:, 1] - predictions[:, 0]
 
 #Returns
