@@ -60,7 +60,6 @@ svm_model.fit(vectorizer.fit_transform(data['text']), data['label'])
 new_articles = load_unlabeled_data('unlabeled_data.csv')
 
 predictions = svm_model.predict_proba(vectorizer.transform(load_unlabeled_data('unlabeled_data.csv')['text']))
-print(predictions)
 sentiment_scores = predictions[:, 1] - predictions[:, 0]
 
 #Returns
