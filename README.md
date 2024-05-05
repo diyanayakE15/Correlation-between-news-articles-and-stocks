@@ -29,7 +29,8 @@ sentiment and stock market returns, Zhang et al. first calculated the daily sent
 score. <br>
 Sentiment Score = p-n 
 p-> no. of positive news articles 
-n-> no. of negative news articles 
+n-> no. of negative news articles
+<br>
 STEP 2: <br>
 They then calculated the daily return from the Shanghai composite index 
 daily return = (price today - price yesterday) / price yesterday <br>
