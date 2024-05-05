@@ -1,24 +1,24 @@
 <b> Introduction </b>
-The study provides evidence for the important role that news sentiment can play in 
+<br>The study provides evidence for the important role that news sentiment can play in 
 predicting stock market movements, To test this hypothesis, the authors use machine 
 learning algorithms to classify news articles as either positive or negative in 
 sentiment, based on the content of the articles. They then analyze the correlation 
 between the sentiment of the news articles and daily returns of the Shanghai 
 Composite Index, which is a widely recognized benchmark of the Chinese stock 
 market. This highlights the potential applications of machine learning algorithms in 
-analyzing large amounts of textual data to identify patterns and correlations. 
+analyzing large amounts of textual data to identify patterns and correlations. <br>
 
-<b> Terminologies </b> <br> <br>
-<i>Labled data:</i> “labled data" refers to the labeled news articles for which the stock 
+<b> Terminologies </b> <br> 
+<b><i>Labled data:</i></b> “labled data" refers to the labeled news articles for which the stock 
 market movements are already known and used for training a machine learning model. <br>
-<i>Unlabled data:</i> "unlabled data" refers to unlabeled news articles, for which the model 
+<b><i>Unlabled data:</i></b> "unlabled data" refers to unlabeled news articles, for which the model 
 predicts the corresponding stock market movements. <br>
-<i>Daily sentiment score:</i> It is defined as the difference between the number of positive 
+<b><i>Daily sentiment score:</i></b> It is defined as the difference between the number of positive 
 and negative news articles.  <br>
-<i>Positive and negative articles:</i> Positive and negative articles refer to news articles that 
+<b><i>Positive and negative articles:</i></b> Positive and negative articles refer to news articles that 
 contain language that is generally associated with positive or negative sentiment or 
 emotion. <br>
-<i>Returns:</i> here, returns refers to stock returns that is used to retrieve daily returns for 
+<b><i>Returns:</i></b> here, returns refers to stock returns that is used to retrieve daily returns for 
 the Shanghai Composite Index. <br>
 <br>
 <b> Steps Involved </b>
