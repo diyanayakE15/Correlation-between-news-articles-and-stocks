@@ -21,7 +21,8 @@ emotion. <br>
 <b><i>Returns:</i></b> here, returns refers to stock returns that is used to retrieve daily returns for 
 the Shanghai Composite Index. <br>
 <br>
-<b> Steps Involved </b>
+
+<b> Steps Involved </b><br>
 STEP 1: <br>
 To apply the formula of Pearson coefficient to the relationship between news 
 sentiment and stock market returns, Zhang et al. first calculated the daily sentiment 
