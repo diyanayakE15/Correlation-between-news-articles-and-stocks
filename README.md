@@ -63,9 +63,9 @@ Required Python libraries: pandas, sklearn, numpy<br>
 Installation and Setup<br>
 
 <b> Clone the repository:</b><br>
-git clone https://github.com/diyanayakE15/Correlation-between-news-articles-and-stocks
-<br>
-Install the required dependencies:</b><br>
+git clone https://github.com/diyanayakE15/Correlation-between-news-articles-and-stocks<br>
+
+<b>Install the required dependencies:</b><br>
 pip install pandas scikit-learn numpy<br>
 
 <b> Run the Python script:</b><br>
