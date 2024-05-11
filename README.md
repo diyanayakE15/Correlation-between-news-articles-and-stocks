@@ -69,7 +69,7 @@ git clone https://github.com/diyanayakE15/Correlation-between-news-articles-and-
 pip install pandas scikit-learn numpy<br>
 
 <b> Run the Python script:</b><br>
-Correlation.py<br>
+Python Correlation.py<br>
 
 <b> Usage</b><br>
 Ensure the labeled and unlabeled data files are in the correct format (CSV).<br>
