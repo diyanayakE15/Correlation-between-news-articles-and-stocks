@@ -36,4 +36,42 @@ used as  two variables to calculate the Pearson correlation coefficient.
 r = (nΣxy - ΣxΣy) / sqrt((nΣx^2 - (Σx)^2)(nΣy^2 - (Σy)^2)) 
 n -> number of data points 
 x -> daily sentiment score of news articles 
-y -> daily return of the 
+y -> daily return of the <br>
+
+
+<b> Implementation</b> <br>
+<b><i>Data Preparation:</i></b> 
+Labeled and unlabeled data are prepared and saved as CSV files.
+Stock data is generated and saved as a CSV file.<br>
+<b><i>Model Training:</i></b>
+Labeled data is loaded, and TF-IDF features are extracted from the text using a vectorizer.
+An SVM model with a linear kernel is trained on the labeled data.<br>
+<b><i>Sentiment Analysis:</i></b>
+Unlabeled news articles are loaded.
+The trained SVM model is used to classify the sentiment of the unlabeled articles, providing sentiment scores.
+Sentiment scores are calculated based on predicted probabilities.<br>
+<b><i>Stock Returns:</i></b>
+Daily stock open and close prices are loaded.
+Returns are calculated as the percentage change between open and close prices.<br>
+<b><i>Correlation Analysis:</i></b>
+Pearson correlation coefficient is calculated between stock returns and sentiment scores.
+The correlation coefficient indicates the strength and direction of the linear relationship between the two variables.<br>
+
+<b> Prerequisites</b><br>
+Python 3.x<br>
+Required Python libraries: pandas, sklearn, numpy<br>
+Installation and Setup<br>
+
+<b> Clone the repository:</b><br>
+git clone https://github.com/diyanayakE15/Correlation-between-news-articles-and-stocks
+<br>
+Install the required dependencies:</b><br>
+pip install pandas scikit-learn numpy<br>
+
+<b> Run the Python script:</b><br>
+Correlation.py<br>
+
+<b> Usage</b><br>
+Ensure the labeled and unlabeled data files are in the correct format (CSV).<br>
+Run the script to perform sentiment analysis on the unlabeled news articles and calculate stock returns.<br>
+View the Pearson correlation coefficient to understand the relationship between sentiment scores and stock returns.
